@@ -1,0 +1,40 @@
+[
+  {
+    "day": "01-01-2016",
+    "visits": [
+      {
+        "pk": 1,
+        "marks": [
+          {
+            "value": "pl"
+          },
+          {
+            "value": "pl"
+          }
+        ]
+      },
+      {
+        "pk": 2,
+        "marks": [
+          {
+            "value": "mi"
+          },
+          {
+            "value": "mi"
+          }
+        ]
+      },
+      {
+        "pk": 3,
+        "marks": [
+          {
+            "value": "pm"
+          },
+          {
+            "value": "pm"
+          }
+        ]
+      }
+    ]
+  }
+]
