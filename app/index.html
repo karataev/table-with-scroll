@@ -28,7 +28,7 @@
               <td colspan="{{day.marks2d[0].length}}">{{day.day}}</td>
             </tr>
             <tr ng-repeat="marksRow in day.marks2d track by $index">
-              <td ng-repeat="mark in marksRow track by $index">
+              <td ng-repeat="mark in marksRow track by $index" class="mark-cell">
                 {{mark}}
               </td>
             </tr>

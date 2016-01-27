@@ -56,6 +56,9 @@ td {
         display: flex;
 
         .table-day {
+          .mark-cell {
+            text-align: center;
+          }
         }
       }
     }
