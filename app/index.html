@@ -14,6 +14,7 @@
 <div class="holder">
   <div class="table-blank-wrap">
     <table class="table-blank">
+      <tr><td></td></tr>
       <tr ng-repeat="blankItem in ctrl.blankData">
         <td>{{blankItem.value}}</td>
       </tr>
@@ -22,9 +23,14 @@
       <div class="expand-arrow" ng-click="ctrl.toggleExpanded()"><></div>
       <div class="data-overflow-container">
         <div class="data">
-          <table class="table-data">
-            <tr ng-repeat="item in ctrl.data">
-              <td>{{item.value}}</td>
+          <table ng-repeat="day in ctrl.data" class="table-day">
+            <tr>
+              <td colspan="{{day.marks2d[0].length}}">{{day.day}}</td>
+            </tr>
+            <tr ng-repeat="marksRow in day.marks2d track by $index">
+              <td ng-repeat="mark in marksRow track by $index">
+                {{mark}}
+              </td>
             </tr>
           </table>
         </div>
