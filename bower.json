@@ -1,0 +1,21 @@
+{
+  "name": "table-scroll",
+  "version": "0.0.0",
+  "homepage": "https://github.com/karataev/table-with-scroll",
+  "authors": [
+    "karataev <eugene.karataev@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "bootstrap": "~3.3.6",
+    "lodash": "~4.0.1"
+  }
+}
