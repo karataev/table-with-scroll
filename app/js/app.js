@@ -28,4 +28,10 @@ angular.module('app', [])
       }
     ]
 
+    vm.expanded = false;
+
+    vm.toggleExpanded = function () {
+      vm.expanded = !vm.expanded;
+    }
+
   }])

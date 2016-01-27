@@ -26,6 +26,10 @@ td {
     right: 0;
     width: 200px;
 
+    &.expanded {
+      width: 400px;
+    }
+
     .expand-arrow {
       position: absolute;
       top: 0;
@@ -34,6 +38,7 @@ td {
       height: 20px;
       background-color: blue;
       border-radius: 50%;
+      cursor: pointer;
     }
 
     .data-overflow-container {
